@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Huduma za Teknolojia</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="bar">
+    <a class="brand" href="#juu"><i></i>Huduma za Teknolojia</a>
+    <nav class="links" aria-label="Menyu kuu">
+      <a href="#huduma">Huduma</a>
+      <a href="#wasiliana">Wasiliana</a>
+    </nav>
+    <a class="btn" href="#wasiliana">Omba huduma</a>
+  </div>
+</header>
+
+<main class="wrap" id="juu">
+  <section class="hero">
+    <div>
+      <div class="eyebrow">IT · Ubunifu · Steshenari</div>
+      <h1>Kila huduma ya teknolojia na uchapishaji, <mark>mahali pamoja</mark>.</h1>
+      <p class="lead">Tunatengeneza tovuti na app, tunakarabati simu na kompyuta, tunafunga mtandao na kamera, tunabuni nembo, na kuchapisha nyaraka zako. Njoo na tatizo moja, uondoke na suluhisho.</p>
+      <div class="cta">
+        <a class="btn" href="#huduma">Angalia huduma zote</a>
+        <a class="btn ghost" href="#wasiliana">Omba bei</a>
+      </div>
+    </div>
+    <aside class="index" aria-label="Orodha ya idara">
+      <h2>Idara zetu</h2>
+      <div id="index"></div>
+    </aside>
+  </section>
+
+  <div class="strip">
+    <span><b>Simu na Kompyuta:</b> ukarabati wa skrini, betri, software</span>
+    <span><b>Malipo:</b> M-Pesa, Airtel Money, Tigo Pesa, Kadi</span>
+    <span><b>Serikalini:</b> NIDA, TRA, Pasipoti, Vyuo</span>
+  </div>
+
+  <section id="huduma" aria-label="Huduma">
+    <div class="filters" id="filters" role="group" aria-label="Chuja kwa idara"></div>
+    <div id="depts"></div>
+  </section>
+
+  <section class="contact" id="wasiliana">
+    <div>
+      <h2>Niambie unahitaji nini.</h2>
+      <p>Jaza fomu, kisha nakili ujumbe na uutume kwa WhatsApp au SMS. Tutakujibu na bei pamoja na muda wa kazi.</p>
+      <ul class="details">
+        <li><span class="k">Simu</span><span class="ph">+255 7XX XXX XXX</span></li>
+        <li><span class="k">WhatsApp</span><span class="ph">+255 7XX XXX XXX</span></li>
+        <li><span class="k">Barua pepe</span><span class="ph">info@kampuni.com</span></li>
+        <li><span class="k">Mahali</span><span>Weka anwani ya duka lako hapa</span></li>
+      </ul>
+    </div>
+    <form id="form" novalidate>
+      <label for="jina">Jina lako
+        <input id="jina" name="jina" type="text" autocomplete="name" placeholder="Mfano: Amina Juma">
+      </label>
+      <label for="huduma-sel">Huduma unayohitaji
+        <select id="huduma-sel" name="huduma"></select>
+      </label>
+      <label for="maelezo">Maelezo kwa ufupi
+        <textarea id="maelezo" name="maelezo" placeholder="Mfano: Simu yangu haichaji, au nahitaji nembo ya duka jipya."></textarea>
+      </label>
+      <button class="btn hi" type="submit">Tengeneza ujumbe</button>
+      <div class="result" id="result" hidden>
+        <pre id="msg"></pre>
+        <div class="row">
+          <button class="btn" type="button" id="copy">Nakili ujumbe</button>
+          <small id="copied" role="status"></small>
+        </div>
+      </div>
+    </form>
+  </section>
+
+  <footer>
+    <span>© <span id="yr"></span> Huduma za Teknolojia. Haki zote zimehifadhiwa.</span>
+    <span>IT · Ukarabati · Mtandao · Cloud · Ubunifu · Steshenari</span>
+  </footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
