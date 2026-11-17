@@ -1,55 +1,328 @@
 <!DOCTYPE html>
 <html lang="sw">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Huduma za Teknolojia</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@500&display=swap">
-<link rel="stylesheet" href="style.css">
-<link rel="icon" type="image/png" href="favicon.png>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LQ Cyber Company | Huduma za Teknolojia na Uchapishaji, Mbande</title>
+  <meta name="description" content="LQ Cyber Company, Mbande: ujenzi wa tovuti na app, ukarabati wa simu na kompyuta, mtandao na usalama, cloud, ubunifu wa picha, uchapishaji na huduma za serikalini. Mahali pamoja.">
+  <meta name="keywords" content="LQ Cyber, huduma za teknolojia, ukarabati wa simu, kompyuta, uchapishaji, NIDA, TRA, Mbande, Dar es Salaam, tovuti, CCTV">
+  <meta name="author" content="LQ Cyber Company">
+  <meta name="theme-color" content="#0f7f78">
+  <link rel="canonical" href="https://JINA-LAKO.github.io/">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="favicon.svg">
+  <link rel="manifest" href="site.webmanifest">
+
+  <!-- Open Graph (WhatsApp, Facebook) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="sw_TZ">
+  <meta property="og:title" content="LQ Cyber Company | Intelligent Solutions, Secure Future">
+  <meta property="og:description" content="Kila huduma ya teknolojia na uchapishaji, mahali pamoja. Mbande.">
+  <meta property="og:image" content="favicon.svg">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "LQ Cyber Company",
+    "slogan": "Intelligent Solutions | Secure Future",
+    "telephone": "+255716943575",
+    "email": "lqcompany11@gmail.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Mbande", "addressCountry": "TZ" }
+  }
+  </script>
 </head>
 <body>
-<header class="top">
-  <div class="bar">
-    <a class="brand" href="#juu"><i></i>Huduma za Teknolojia</a>
-    <nav class="links" aria-label="Menyu kuu">
-      <a href="#huduma">Huduma</a>
-      <a href="#wasiliana">Wasiliana</a>
-    </nav>
-    <a class="btn" href="#wasiliana">Omba huduma</a>
-  </div>
-</header>
+  <a class="skip" href="#main">Ruka hadi maudhui</a>
 
-<main class="wrap" id="juu">
-  <section class="hero">
-    <div>
-      <div class="eyebrow">LQ Cyber company : Intelligent Solution | secure future</div>
-      <h1>Kila huduma ya teknolojia na uchapishaji, <mark>mahali pamoja</mark>.</h1>
-      <p class="lead">Tunatengeneza tovuti na app, tunakarabati simu na kompyuta, tunafunga mtandao na kamera, tunabuni nembo, na kuchapisha nyaraka zako. Njoo na tatizo moja, uondoke na suluhisho.</p>
-      <div class="cta">
-        <a class="btn" href="#huduma">Angalia huduma zote</a>
-        <a class="btn ghost" href="#wasiliana">Omba bei</a>
-      </div>
+  <header class="site-header" id="top">
+    <div class="wrap bar">
+      <a class="brand" href="#top" aria-label="LQ Cyber Company, ukurasa wa mwanzo">
+        <img src="favicon.svg" alt="" width="34" height="34">
+        <span>LQ Cyber</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Menyu kuu">
+        <a href="#huduma">Huduma</a>
+        <a href="#serikalini">Serikalini</a>
+        <a href="#kwa-nini">Kwa nini sisi</a>
+        <a href="#hatua">Jinsi tunavyofanya kazi</a>
+        <a href="#maswali">Maswali</a>
+        <a href="#mawasiliano">Mawasiliano</a>
+        <a class="btn btn-primary nav-cta" href="#omba">Omba huduma</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Fungua menyu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
     </div>
-    <aside class="index" aria-label="Orodha ya idara">
-      <h2>Idara zetu</h2>
-      <div id="index"></div>
-    </aside>
-  </section>
+  </header>
 
-  <div class="strip">
-    <span><b>Simu na Kompyuta:</b> ukarabati wa skrini, betri, software</span>
-    <span><b>Malipo:</b> M-Pesa, Airtel Money, Tigo Pesa, Kadi</span>
-    <span><b>Serikalini:</b> NIDA, TRA, Pasipoti, Vyuo</span>
-  </div>
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow">LQ Cyber Company : Intelligent Solutions | Secure Future</p>
+          <h1>Kila huduma ya teknolojia na uchapishaji, <mark>mahali pamoja</mark>.</h1>
+          <p class="lead">Tunatengeneza tovuti na app, tunakarabati simu na kompyuta, tunafunga mtandao na kamera, tunabuni nembo, na kuchapisha nyaraka zako. Njoo na tatizo moja, uondoke na suluhisho.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#huduma">Angalia huduma zote</a>
+            <a class="btn btn-ghost" href="#omba">Omba bei</a>
+          </div>
+          <ul class="trust">
+            <li><strong>Mbande</strong> Tupo karibu nawe</li>
+            <li><strong>WhatsApp</strong> Majibu ya haraka</li>
+            <li><strong>M-Pesa na zaidi</strong> Lipa upendavyo</li>
+          </ul>
+        </div>
 
+        <aside class="dept-card reveal" aria-label="Idara zetu">
+          <p class="eyebrow">Idara zetu</p>
+          <ul>
+            <li><a href="#huduma" data-jump="pr"><span class="code">PR</span><span class="name">Ujenzi wa Programu na IT</span><span class="count">4 huduma</span></a></li>
+            <li><a href="#huduma" data-jump="hw"><span class="code">HW</span><span class="name">Ukarabati na Matengenezo</span><span class="count">3 huduma</span></a></li>
+            <li><a href="#huduma" data-jump="nw"><span class="code">NW</span><span class="name">Mtandao na Usalama</span><span class="count">3 huduma</span></a></li>
+            <li><a href="#huduma" data-jump="cl"><span class="code">CL</span><span class="name">Cloud na Usimamizi wa Data</span><span class="count">3 huduma</span></a></li>
+            <li><a href="#huduma" data-jump="gr"><span class="code">GR</span><span class="name">Ubunifu wa Picha na Chapa</span><span class="count">4 huduma</span></a></li>
+            <li><a href="#huduma" data-jump="st"><span class="code">ST</span><span class="name">Steshenari na Uchapishaji</span><span class="count">4 huduma</span></a></li>
+          </ul>
+        </aside>
+      </div>
 
-  <footer>
-    <span>© <span id="yr"></span> Huduma za Teknolojia. Haki zote zimehifadhiwa.</span>
-    <span>IT · Ukarabati · Mtandao · Cloud · Ubunifu · Steshenari</span>
+      <div class="wrap strip">
+        <p><strong>Simu na Kompyuta:</strong> ukarabati wa skrini, betri, software</p>
+        <p><strong>Malipo:</strong> M-Pesa, Airtel Money, Tigo Pesa, Kadi</p>
+        <p><strong>Serikalini:</strong> NIDA, TRA, Pasipoti, Vyuo</p>
+      </div>
+    </section>
+
+    <!-- HUDUMA -->
+    <section class="section" id="huduma">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Huduma zetu</p>
+          <h2>Chagua idara, ona huduma</h2>
+          <p class="sub">Bonyeza idara yoyote kuona huduma zake, kisha omba bei moja kwa moja kupitia WhatsApp.</p>
+        </div>
+
+        <div class="tabs" role="tablist" aria-label="Idara za huduma">
+          <button role="tab" class="tab is-active" data-tab="pr" aria-selected="true">Programu na IT</button>
+          <button role="tab" class="tab" data-tab="hw" aria-selected="false">Ukarabati</button>
+          <button role="tab" class="tab" data-tab="nw" aria-selected="false">Mtandao na Usalama</button>
+          <button role="tab" class="tab" data-tab="cl" aria-selected="false">Cloud na Data</button>
+          <button role="tab" class="tab" data-tab="gr" aria-selected="false">Ubunifu wa Picha</button>
+          <button role="tab" class="tab" data-tab="st" aria-selected="false">Uchapishaji</button>
+        </div>
+
+        <div class="panel is-active" id="tab-pr" role="tabpanel">
+          <article class="svc"><h3>Tovuti na duka la mtandaoni</h3><p>Tovuti ya biashara, blogu au duka la kuuza mtandaoni, inayofunguka vizuri kwenye simu.</p><a href="#omba" data-service="Tovuti na duka la mtandaoni">Omba bei</a></article>
+          <article class="svc"><h3>App za simu</h3><p>App za Android na za kwenye wavuti kulingana na mahitaji ya biashara yako.</p><a href="#omba" data-service="App za simu">Omba bei</a></article>
+          <article class="svc"><h3>Mifumo ya biashara</h3><p>Mfumo wa mauzo (POS), stoku, madeni na ripoti ili ujue biashara inavyokwenda.</p><a href="#omba" data-service="Mifumo ya biashara">Omba bei</a></article>
+          <article class="svc"><h3>Ushauri wa IT</h3><p>Tunakusaidia kuchagua vifaa na mifumo sahihi bila kupoteza pesa.</p><a href="#omba" data-service="Ushauri wa IT">Omba bei</a></article>
+        </div>
+
+        <div class="panel" id="tab-hw" role="tabpanel">
+          <article class="svc"><h3>Ukarabati wa skrini za simu</h3><p>Kubadilisha skrini iliyopasuka au isiyoonyesha vizuri.</p><a href="#omba" data-service="Ukarabati wa skrini za simu">Omba bei</a></article>
+          <article class="svc"><h3>Betri na chaji</h3><p>Betri inayoisha haraka, simu isiyochaji au port mbovu.</p><a href="#omba" data-service="Betri na chaji">Omba bei</a></article>
+          <article class="svc"><h3>Kompyuta na software</h3><p>Kusakinisha Windows, kuondoa virusi, kusafisha na kuongeza kasi ya kompyuta.</p><a href="#omba" data-service="Kompyuta na software">Omba bei</a></article>
+        </div>
+
+        <div class="panel" id="tab-nw" role="tabpanel">
+          <article class="svc"><h3>WiFi na router</h3><p>Kufunga na kuboresha WiFi nyumbani, ofisini au dukani ili mtandao ufike kila kona.</p><a href="#omba" data-service="WiFi na router">Omba bei</a></article>
+          <article class="svc"><h3>Kamera za CCTV</h3><p>Kufunga kamera za usalama na kuziunganisha na simu yako.</p><a href="#omba" data-service="Kamera za CCTV">Omba bei</a></article>
+          <article class="svc"><h3>Antivirus na usalama</h3><p>Kulinda vifaa vyako dhidi ya virusi, utapeli na wizi wa taarifa.</p><a href="#omba" data-service="Antivirus na usalama">Omba bei</a></article>
+        </div>
+
+        <div class="panel" id="tab-cl" role="tabpanel">
+          <article class="svc"><h3>Backup ya data</h3><p>Hifadhi nakala ya picha na nyaraka zako muhimu zisipotee.</p><a href="#omba" data-service="Backup ya data">Omba bei</a></article>
+          <article class="svc"><h3>Barua pepe ya biashara</h3><p>Barua pepe yenye jina la biashara yako, kama jina@biashara.com.</p><a href="#omba" data-service="Barua pepe ya biashara">Omba bei</a></article>
+          <article class="svc"><h3>Kuhamisha data</h3><p>Kuhamisha mafaili kutoka simu au kompyuta ya zamani kwenda mpya.</p><a href="#omba" data-service="Kuhamisha data">Omba bei</a></article>
+        </div>
+
+        <div class="panel" id="tab-gr" role="tabpanel">
+          <article class="svc"><h3>Nembo (logo)</h3><p>Nembo ya kipekee inayotambulisha biashara yako.</p><a href="#omba" data-service="Nembo (logo)">Omba bei</a></article>
+          <article class="svc"><h3>Kadi za biashara</h3><p>Kadi nadhifu zenye taarifa zako, tayari kuchapishwa.</p><a href="#omba" data-service="Kadi za biashara">Omba bei</a></article>
+          <article class="svc"><h3>Mabango na flyers</h3><p>Matangazo ya kuvutia kwa mitandao ya kijamii na kuchapisha.</p><a href="#omba" data-service="Mabango na flyers">Omba bei</a></article>
+          <article class="svc"><h3>Utambulisho wa chapa</h3><p>Rangi, herufi na mwonekano unaofanana kwenye kila kitu cha biashara yako.</p><a href="#omba" data-service="Utambulisho wa chapa">Omba bei</a></article>
+        </div>
+
+        <div class="panel" id="tab-st" role="tabpanel">
+          <article class="svc"><h3>Kuchapisha nyaraka</h3><p>Nyaraka, picha na ripoti kwa rangi au nyeusi na nyeupe.</p><a href="#omba" data-service="Kuchapisha nyaraka">Omba bei</a></article>
+          <article class="svc"><h3>Photocopy na scan</h3><p>Nakala za haraka na kuscan nyaraka kuwa PDF.</p><a href="#omba" data-service="Photocopy na scan">Omba bei</a></article>
+          <article class="svc"><h3>Lamination na binding</h3><p>Kulinda vyeti na kufunga vitabu, ripoti na miradi.</p><a href="#omba" data-service="Lamination na binding">Omba bei</a></article>
+          <article class="svc"><h3>Steshenari</h3><p>Madaftari, kalamu, karatasi na vifaa vya ofisi na shule.</p><a href="#omba" data-service="Steshenari">Omba bei</a></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERIKALINI -->
+    <section class="section alt" id="serikalini">
+      <div class="wrap split">
+        <div class="reveal">
+          <p class="eyebrow">Huduma za mtandaoni</p>
+          <h2>Serikalini na malipo, bila usumbufu</h2>
+          <p class="sub">Tunakusaidia kujaza fomu na kukamilisha maombi ya mtandaoni ili usipoteze muda kwenye foleni.</p>
+        </div>
+        <div class="chips reveal">
+          <div>
+            <h3>Serikalini</h3>
+            <ul><li>NIDA</li><li>TRA</li><li>Pasipoti</li><li>Vyuo</li></ul>
+          </div>
+          <div>
+            <h3>Malipo tunayopokea</h3>
+            <ul><li>M-Pesa</li><li>Airtel Money</li><li>Tigo Pesa</li><li>Kadi</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KWA NINI SISI -->
+    <section class="section" id="kwa-nini">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Kwa nini LQ Cyber</p>
+          <h2>Sababu za kutuchagua</h2>
+        </div>
+        <div class="why">
+          <div class="why-item reveal"><span class="num">01</span><h3>Mahali pamoja</h3><p>Simu imeharibika, unahitaji nembo na kuchapisha kadi? Yote kwa safari moja.</p></div>
+          <div class="why-item reveal"><span class="num">02</span><h3>Bei iliyo wazi</h3><p>Unaomba bei kabla ya kazi kuanza, hakuna mshangao baadaye.</p></div>
+          <div class="why-item reveal"><span class="num">03</span><h3>Usalama kwanza</h3><p>Tunalinda data na vifaa vyako, kauli yetu ni Secure Future.</p></div>
+          <div class="why-item reveal"><span class="num">04</span><h3>Majibu ya haraka</h3><p>Tuandikie WhatsApp, utapata jibu bila kusubiri kwa muda mrefu.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HATUA -->
+    <section class="section alt" id="hatua">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Jinsi tunavyofanya kazi</p>
+          <h2>Hatua nne rahisi</h2>
+        </div>
+        <ol class="steps">
+          <li class="reveal"><span>1</span><h3>Eleza tatizo</h3><p>Tuambie unachohitaji kupitia fomu, WhatsApp au kwa kufika dukani.</p></li>
+          <li class="reveal"><span>2</span><h3>Pata bei</h3><p>Tunakupa bei na muda wa kukamilisha kabla ya kuanza.</p></li>
+          <li class="reveal"><span>3</span><h3>Tunafanya kazi</h3><p>Fundi wetu anashughulikia kazi yako kwa uangalifu.</p></li>
+          <li class="reveal"><span>4</span><h3>Pokea na ulipe</h3><p>Unakagua kazi, kisha unalipa kwa M-Pesa, Airtel Money, Tigo Pesa au kadi.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- OMBA HUDUMA -->
+    <section class="section" id="omba">
+      <div class="wrap split">
+        <div class="reveal">
+          <p class="eyebrow">Omba huduma</p>
+          <h2>Omba bei sasa</h2>
+          <p class="sub">Jaza fomu hii fupi. Ukibonyeza kitufe, ujumbe wako utafunguka kwenye WhatsApp, tayari kutumwa kwetu.</p>
+        </div>
+
+        <form class="form reveal" id="quoteForm" novalidate>
+          <label>Jina lako
+            <input type="text" id="fName" name="name" autocomplete="name" placeholder="Mfano: Asha Juma" required>
+          </label>
+          <label>Namba ya simu
+            <input type="tel" id="fPhone" name="phone" autocomplete="tel" inputmode="tel" placeholder="07XX XXX XXX" required>
+          </label>
+          <label>Huduma unayohitaji
+            <select id="fService" name="service" required>
+              <option value="">Chagua huduma</option>
+              <optgroup label="Programu na IT">
+                <option>Tovuti na duka la mtandaoni</option><option>App za simu</option><option>Mifumo ya biashara</option><option>Ushauri wa IT</option>
+              </optgroup>
+              <optgroup label="Ukarabati">
+                <option>Ukarabati wa skrini za simu</option><option>Betri na chaji</option><option>Kompyuta na software</option>
+              </optgroup>
+              <optgroup label="Mtandao na Usalama">
+                <option>WiFi na router</option><option>Kamera za CCTV</option><option>Antivirus na usalama</option>
+              </optgroup>
+              <optgroup label="Cloud na Data">
+                <option>Backup ya data</option><option>Barua pepe ya biashara</option><option>Kuhamisha data</option>
+              </optgroup>
+              <optgroup label="Ubunifu wa Picha">
+                <option>Nembo (logo)</option><option>Kadi za biashara</option><option>Mabango na flyers</option><option>Utambulisho wa chapa</option>
+              </optgroup>
+              <optgroup label="Uchapishaji">
+                <option>Kuchapisha nyaraka</option><option>Photocopy na scan</option><option>Lamination na binding</option><option>Steshenari</option>
+              </optgroup>
+              <optgroup label="Serikalini">
+                <option>NIDA</option><option>TRA</option><option>Pasipoti</option><option>Vyuo</option>
+              </optgroup>
+              <option>Nyingine</option>
+            </select>
+          </label>
+          <label>Maelezo zaidi
+            <textarea id="fMsg" name="message" rows="4" placeholder="Eleza kwa ufupi unachohitaji"></textarea>
+          </label>
+          <p class="error" id="formError" role="alert" hidden></p>
+          <button class="btn btn-primary" type="submit">Tuma kupitia WhatsApp</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- MASWALI -->
+    <section class="section alt" id="maswali">
+      <div class="wrap narrow">
+        <div class="section-head reveal">
+          <p class="eyebrow">Maswali yanayoulizwa mara nyingi</p>
+          <h2>Una swali?</h2>
+        </div>
+        <div class="faq reveal">
+          <details><summary>Mnapatikana wapi?</summary><p>Tupo Mbande. Tupigie au tuandikie WhatsApp kupata maelekezo kamili ya kufika.</p></details>
+          <details><summary>Nawezaje kulipa?</summary><p>Tunapokea M-Pesa, Airtel Money, Tigo Pesa na kadi.</p></details>
+          <details><summary>Je, naweza kupata bei kabla ya kazi?</summary><p>Ndiyo. Tuma ombi lako kupitia fomu au WhatsApp, tutakupa bei kabla ya kuanza kazi.</p></details>
+          <details><summary>Mnasaidia kujaza fomu za NIDA, TRA na pasipoti?</summary><p>Ndiyo. Tunakusaidia kujaza na kutuma maombi ya mtandaoni. Leta vielelezo vyako vinavyohitajika.</p></details>
+          <details><summary>Mnaweza kutengeneza tovuti ya biashara yangu?</summary><p>Ndiyo. Tunatengeneza tovuti za biashara na maduka ya mtandaoni zinazofunguka vizuri kwenye simu.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAWASILIANO -->
+    <section class="section" id="mawasiliano">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Mawasiliano</p>
+          <h2>Tuwasiliane</h2>
+        </div>
+        <div class="contact">
+          <a class="c-card reveal" href="tel:+255716943575"><span class="code">SIMU</span><strong>+255 716 943 575</strong><small>Piga sasa</small></a>
+          <a class="c-card reveal" href="https://wa.me/255716943575" target="_blank" rel="noopener"><span class="code">WHATSAPP</span><strong>+255 716 943 575</strong><small>Tuandikie</small></a>
+          <a class="c-card reveal" href="mailto:lqcompany11@gmail.com"><span class="code">BARUA PEPE</span><strong>lqcompany11@gmail.com</strong><small>Tuma ujumbe</small></a>
+          <div class="c-card reveal"><span class="code">ENEO</span><strong>Mbande</strong><small>Tembelea ofisi yetu</small></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <div>
+        <a class="brand" href="#top"><img src="favicon.svg" alt="" width="30" height="30"><span>LQ Cyber</span></a>
+        <p>Intelligent Solutions | Secure Future</p>
+      </div>
+      <nav aria-label="Viungo vya chini">
+        <a href="#huduma">Huduma</a>
+        <a href="#serikalini">Serikalini</a>
+        <a href="#omba">Omba huduma</a>
+        <a href="#mawasiliano">Mawasiliano</a>
+      </nav>
+      <p class="copy">&copy; <span id="year">2026</span> LQ Cyber Company. Haki zote zimehifadhiwa.</p>
+    </div>
   </footer>
-</main>
 
-<script src="script.js"></script>
+  <a class="wa-float" href="https://wa.me/255716943575?text=Habari%20LQ%20Cyber%2C%20naomba%20msaada." target="_blank" rel="noopener" aria-label="Wasiliana nasi kwa WhatsApp">
+    <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.6.1l-.7.9c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.1 0-.3 0-.4l-.7-1.6c-.2-.4-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.5 1 2.7.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.7 3.1.6.5-.1 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1l-.5-.3Z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
 </body>
 </html>
