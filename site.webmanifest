@@ -1,0 +1,13 @@
+{
+  "name": "LQ Cyber Company",
+  "short_name": "LQ Cyber",
+  "description": "Huduma za teknolojia na uchapishaji, mahali pamoja.",
+  "lang": "sw",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f6f7f4",
+  "theme_color": "#0f7f78",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
